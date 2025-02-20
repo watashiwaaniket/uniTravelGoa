@@ -20,8 +20,8 @@ function App() {
               <h1 className="text-6xl font-bold tracking-tight sm:text-7xl drop-shadow-lg">
                 IT&apos;S TIME TO <br /><span className="text-6xl sm:text-8xl drop-shadow-2xl">VISIT GOA</span>
               </h1>
-              <p className="mt-6 px-6 text-lg leading-8 text-muted-foreground drop-shadow-md">
-                Crave new adventures, mystical experiences and relaxing beaches? You need to visit Goa. We make sure that you&apos;ll get an experience you'll never forget.
+              <p className="mt-6 px-6 text-lg leading-8 font-semibold text-muted-foreground drop-shadow-md">
+                <span className="bg-black bg-opacity-45">Crave new adventures, mystical experiences and relaxing beaches? You need to visit Goa. We make sure that you&apos;ll get an experience you'll never forget.</span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 
