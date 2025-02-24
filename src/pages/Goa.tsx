@@ -126,7 +126,7 @@ export default function Goa() {
                         disableRotation={false}
                     />
                 </div>
-                <p className="text-3xl relative z-10">Let&apos;s get <a href="" className="text-4xl text-orange-400 hover:text-pink-600">Booking!</a></p>
+                <p className="text-3xl relative z-10">Let&apos;s get <a href="https://universaltravelsgoa.com/page" className="text-4xl text-orange-400 hover:text-pink-600">Booking!</a></p>
             </div>
         </>
     )
