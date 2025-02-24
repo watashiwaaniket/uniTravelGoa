@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Magnet from "./components/Magnet"
 import FlowingMenu from "./components/FlowingMenu"
+import { Link } from "react-router-dom";
 
 
 const demoItems = [
@@ -26,7 +27,7 @@ function App() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 
                 <Magnet padding={280} disabled={false} magnetStrength={120}>
-                  <button className="bg-zinc-900 bg-opacity-70 backdrop-blur-md px-8 py-3 rounded-3xl text-sm sm:text-lg font-semibold">Explore Now!</button>
+                  <Link to="/goa" className="text-slate-300 hover:text-slate-100 bg-zinc-900 bg-opacity-70 backdrop-blur-md px-8 py-3 rounded-3xl text-sm sm:text-lg font-semibold">Explore Now!</Link>
                 </Magnet>
               </div>
           </div>
