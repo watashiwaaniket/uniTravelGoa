@@ -126,3 +126,9 @@ h1 {
       linear-gradient(to bottom, #E5989B 1px, transparent 1px);
   background-size: 30px 30px;
 }
+
+.particles-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
