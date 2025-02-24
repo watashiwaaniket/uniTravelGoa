@@ -17,12 +17,12 @@ export default function Goa() {
                     </div>
                 </div>
             </div>
-            <div className="w-screen h-[600px] flex items-center justify-center bg-orange-300">
+            <div className="w-screen h-[600px] flex items-center justify-center bg-[#B5828C] bg-grid-white">
                 <div className="flex h-auto w-[560px] items-center justify-center">
                     <TiltedCard
-                    imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-                    altText="Kendrick Lamar - GNX Album Cover"
-                    captionText="Kendrick Lamar - GNX"
+                    imageSrc="/taxi.jpg"
+                    altText="Taxi Services"
+                    captionText="Pick up and drop"
                     containerHeight="300px"
                     containerWidth="300px"
                     imageHeight="300px"
@@ -33,15 +33,15 @@ export default function Goa() {
                     showTooltip={true}
                     displayOverlayContent={true}
                     overlayContent={
-                        <p className="tilted-card-demo-text">
-                        Kendrick Lamar - GNX
+                        <p className="tilted-card-demo-text text-[#FFCDB2] font-bold text-lg bg-black bg-opacity-65 rounded-md">
+                        Taxi Services 
                         </p>
                     }
                     />
                     <TiltedCard
-                    imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-                    altText="Kendrick Lamar - GNX Album Cover"
-                    captionText="Kendrick Lamar - GNX"
+                    imageSrc="/beach.jpg"
+                    altText="sight seeing"
+                    captionText="Sight Seeing"
                     containerHeight="300px"
                     containerWidth="300px"
                     imageHeight="300px"
@@ -52,15 +52,15 @@ export default function Goa() {
                     showTooltip={true}
                     displayOverlayContent={true}
                     overlayContent={
-                        <p className="tilted-card-demo-text">
-                        Kendrick Lamar - GNX
+                        <p className="tilted-card-demo-text text-[#FFCDB2] font-bold text-lg bg-black bg-opacity-65 rounded-md">
+                        Sight Seeing
                         </p>
                     }
                     />
                     <TiltedCard
-                    imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-                    altText="Kendrick Lamar - GNX Album Cover"
-                    captionText="Kendrick Lamar - GNX"
+                    imageSrc="/water-sports.png"
+                    altText="Water Sports"
+                    captionText="Water Sports"
                     containerHeight="300px"
                     containerWidth="300px"
                     imageHeight="300px"
@@ -71,8 +71,8 @@ export default function Goa() {
                     showTooltip={true}
                     displayOverlayContent={true}
                     overlayContent={
-                        <p className="tilted-card-demo-text">
-                        Kendrick Lamar - GNX
+                        <p className="tilted-card-demo-text text-[#FFCDB2] font-bold text-lg bg-black bg-opacity-65 rounded-md">
+                        Water Sports
                         </p>
                     }
                     />
