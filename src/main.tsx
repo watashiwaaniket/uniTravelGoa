@@ -7,6 +7,7 @@ import About from './pages/About.tsx';
 import Goa from './pages/Goa.tsx';
 import ActAdventure from './pages/ActAdventure.tsx';
 import Contact from './pages/Contact.tsx';
+import SightSeeing from './pages/SightSeeing.tsx';
 
 const  router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const  router = createBrowserRouter([
   {
     path: "/about",
     element: <About />
+  },
+  {
+    path: "/sight-seeing",
+    element: <SightSeeing />
   }
 ])
 

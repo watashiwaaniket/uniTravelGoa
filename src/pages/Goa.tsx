@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar"
 import TiltedCard from "../components/TiltedCard"
 import Particles from "../components/Particles"
+import { Link } from "react-router-dom"
+import Magnet from "../components/Magnet"
 
 export default function Goa() {
     return(
@@ -99,6 +101,11 @@ export default function Goa() {
                             <li className="font-bold">SIGHT SEEING</li>
                             <li>PRIVATE TAXI N/S GOA</li>
                             <li>A/C SHARING BUS N/S GOA</li>
+                            <li className="mt-4">
+                                <Magnet padding={280} disabled={false} magnetStrength={120}>
+                                <Link to="/sight-seeing" className="text-slate-300 hover:text-slate-100 bg-zinc-900 bg-opacity-70 backdrop-blur-md px-8 py-3 rounded-3xl text-sm sm:text-lg font-semibold">Know More!</Link>
+                                </Magnet>
+                            </li>
                         </ul>  
                     </div>
                     <div className="w-[300px] h-[300px] m-4 text-center">
